@@ -1,12 +1,12 @@
-import UseReducer from './UseReducer/UseReducer'
-// import BestPracticeUseReducer from './UseReducer/BestPracticeUseReducer'
+// import UseReducer from './UseReducer/UseReducer'
+import BestPracticeUseReducer from './UseReducer/BestPracticeUseReducer'
 
 function App() {
 
   return (
     <>
-      <UseReducer />
-      {/* <BestPracticeUseReducer /> */}
+      {/* <UseReducer /> */}
+      <BestPracticeUseReducer />
     </>
   )
 }
